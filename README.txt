@@ -4,7 +4,7 @@ Installation Guide
 	'sudo pip3 install keyboard'
 2. Run the python script with sudo
 	'sudo ./keylogger_project'
-3. The log should be emailed every 10 mins
+3. The log should be emailed every minute
 4. Install pyautogui
 	'sudo pip3 install pyautogui'
 5. Install 'scrot' for Linux to be able to take screenshots
